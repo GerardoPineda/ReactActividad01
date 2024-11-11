@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import MiComponente from './MiComponente';
+import { EventosComponente } from './EventosComponente';
+import EventoEjercicio from "./EventoEjercicio";
 
 function App() {
   return (
@@ -15,8 +18,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        
         </a>
+        <MiComponente></MiComponente>
+        <EventosComponente></EventosComponente>
+        <EventoEjercicio></EventoEjercicio>
+        
+        
       </header>
     </div>
   );
